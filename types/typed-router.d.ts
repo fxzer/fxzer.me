@@ -22,6 +22,9 @@ declare module 'vue-router/auto-routes' {
     '/[...404]': RouteRecordInfo<'/[...404]', '/:404(.*)', { 404: ParamValue<true> }, { 404: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
     '/posts/CSS常用代码段': RouteRecordInfo<'/posts/CSS常用代码段', '/posts/CSS常用代码段', Record<never, never>, Record<never, never>>,
+    '/posts/Git常用操作': RouteRecordInfo<'/posts/Git常用操作', '/posts/Git常用操作', Record<never, never>, Record<never, never>>,
+    '/posts/Mac系统环境快速搭建': RouteRecordInfo<'/posts/Mac系统环境快速搭建', '/posts/Mac系统环境快速搭建', Record<never, never>, Record<never, never>>,
+    '/posts/配置多个平台SSH': RouteRecordInfo<'/posts/配置多个平台SSH', '/posts/配置多个平台SSH', Record<never, never>, Record<never, never>>,
     '/projects': RouteRecordInfo<'/projects', '/projects', Record<never, never>, Record<never, never>>,
   }
 }
