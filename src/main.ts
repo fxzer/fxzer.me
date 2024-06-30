@@ -21,6 +21,7 @@ export const createApp = ViteSSG(
   App,
   {
     routes,
+    base: '/fxzer.me/',
   },
   ({ router, app, isClient }) => {
     app.use(createPinia())

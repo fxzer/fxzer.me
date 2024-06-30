@@ -25,6 +25,7 @@ import { slugify } from './scripts/slugify'
 const promises: Promise<any>[] = []
 
 export default defineConfig({
+  base: '/fxzer.me/',
   resolve: {
     alias: [
       { find: '~/', replacement: `${resolve(__dirname, 'src')}/` },
