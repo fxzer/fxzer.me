@@ -46,15 +46,23 @@ projects:
       link: 'https://github.com/fxzer/utils'
       desc: '常用工具函数集合'
       site: ''
+    - name: 'Vitesse Dark Custom'
+      link: 'https://github.com/antfu/vscode-theme-vitesse.git'
+      desc: '继承自 Vitesse Theme 自定义的 VS Code 主题'
+      site: 'https://marketplace.visualstudio.com/items?itemName=fxzer.theme-vitesse-dark-custom'
+    - name: 'fxzer/fxr-cli'
+      link: 'https://github.com/fxzer/fxr-cli'
+      desc: '自定义的脚手架，用于快速搭建项目'
+      site: 'https://www.npmjs.com/package/fxr-cli'
   Electron:
     - name: 'electron-dark-light-joint'
       link: 'https://github.com/fxzer/electron-dark-light-joint'
       desc: '亮暗图片拼接工具'
       site: ''
   React:
-    - name: 'React XXX'
-      link: 'https://github.com/fxzer/xxx'
-      desc: 'xxx'
+    - name: 'x-admin-react'
+      link: 'https://github.com/fxzer/x-admin-react'
+      desc: '...'
       site: ''
 ---
 
