@@ -88,13 +88,6 @@ onMounted(() => {
     resizeCanvas(w, h)
     addPoints()
   })
-
-  // Uncomment to enable scroll-based animation
-  // Tho there is some lag when scrolling, not sure if it's solvable
-  // useEventListener('scroll', () => {
-  //   offsetY = window.scrollY
-  //   addPoints()
-  // }, { passive: true })
 })
 
 onUnmounted(() => {
