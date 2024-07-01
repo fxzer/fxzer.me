@@ -76,19 +76,6 @@
     "/fxzer.me/assets/projects-DjcJxPgj.css"
   ],
   "src/App.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/ArtDots.vue": [
-    "/fxzer.me/assets/ArtDots-DGCHUGuF.js"
-  ],
-  "src/components/ArtDots.vue?vue&type=script&setup=true&lang.ts": [
-    "/fxzer.me/assets/ArtDots-DGCHUGuF.js"
-  ],
-  "src/components/ArtPlum.vue": [
-    "/fxzer.me/assets/ArtPlum-D06o0UIn.js"
-  ],
-  "src/components/ArtPlum.vue?vue&type=script&setup=true&lang.ts": [
-    "/fxzer.me/assets/ArtPlum-D06o0UIn.js"
-  ],
-  "src/components/Footer.vue": [],
   "src/components/ListPosts.vue?vue&type=script&setup=true&lang.ts": [
     "/fxzer.me/assets/index-0LtQqU2R.js"
   ],
@@ -104,13 +91,26 @@
     "/fxzer.me/assets/projects-iFz5DjsD.js",
     "/fxzer.me/assets/projects-DjcJxPgj.css"
   ],
-  "src/components/Logo.vue": [],
-  "src/components/NavBar.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/ScrollTop.vue?vue&type=script&setup=true&lang.ts": [],
-  "src/components/ToggleTheme.vue?vue&type=script&setup=true&lang.ts": [],
   "src/components/WrapperPost.vue?vue&type=script&setup=true&lang.ts": [
     "/fxzer.me/assets/WrapperPost.vue_vue_type_script_setup_true_lang-BtF_T4UQ.js"
   ],
+  "src/components/art/ArtDots.vue": [
+    "/fxzer.me/assets/ArtDots-DGCHUGuF.js"
+  ],
+  "src/components/art/ArtDots.vue?vue&type=script&setup=true&lang.ts": [
+    "/fxzer.me/assets/ArtDots-DGCHUGuF.js"
+  ],
+  "src/components/art/ArtPlum.vue": [
+    "/fxzer.me/assets/ArtPlum-D06o0UIn.js"
+  ],
+  "src/components/art/ArtPlum.vue?vue&type=script&setup=true&lang.ts": [
+    "/fxzer.me/assets/ArtPlum-D06o0UIn.js"
+  ],
+  "src/components/layout/Footer.vue": [],
+  "src/components/layout/Logo.vue": [],
+  "src/components/layout/NavBar.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/components/layout/ScrollTop.vue?vue&type=script&setup=true&lang.ts": [],
+  "src/components/layout/ToggleTheme.vue?vue&type=script&setup=true&lang.ts": [],
   "src/logics/index.ts": [],
   "src/main.ts": [],
   "src/styles/main.css": [],
