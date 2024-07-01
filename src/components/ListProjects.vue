@@ -26,19 +26,21 @@ function slug(name: string) {
         class="project-grid py-2 max-w-500 w-max mx-auto"
         grid="~ cols-1 md:cols-2 gap-4 lg:cols-3"
       >
-        <a
+        <div
           v-for="item, idx in projects[key]"
           :key="idx"
           class="item relative flex items-center"
-          :href="item.link"
-          target="_blank"
           :title="item.name"
         >
           <div class="flex-auto">
-            <div class="text-normal">{{ item.name }}</div>
+            <div class="text-normal">
+              {{ item.name }}
+              <a :href="item.link" target="_blank" class="i-material-symbols-light:code-blocks-outline ml-2 mr-1" />
+              <a v-if="item.site.trim()" :href="item.site" target="_blank" class="i-material-symbols-light:preview-outline-sharp" />
+            </div>
             <div class="desc text-sm opacity-50 font-normal" v-html="item.desc" />
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
@@ -57,16 +59,17 @@ function slug(name: string) {
 </template>
 
 <style scoped>
-.project-grid a.item {
-  background: transparent;
+.project-grid .item {
   font-size: 1.1rem;
   width: 350px;
   max-width: 100%;
   padding: 0.5rem 0.875rem 0.875rem;
   border-radius: 6px;
+  background: #8888881d;
+  opacity: 0.8;
 }
 
-.project-grid a.item:hover {
-  background: #8888881b;
+.project-grid .item:hover {
+  opacity: 1;
 }
 </style>

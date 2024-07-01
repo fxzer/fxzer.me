@@ -1,5 +1,4 @@
 ---
-title: Projects - fxzer
 description: List of projects that I am proud of
 wrapperClass: 'text-center'
 art: dots
@@ -8,20 +7,55 @@ projects:
     - name: 'Json Viewer'
       link: 'https://github.com/fxzer/json-viewer'
       desc: 'JSON 可视化网站'
+      site: 'https://fxzer.github.io/json-viewer'
     - name: 'x-admin'
       link: 'https://github.com/fxzer/x-admin'
       desc: 'Vue3后台管理系统模板'
+      site: 'https://x-admin-iota.vercel.app'
     - name: 'funny-canvas'
       link: 'https://github.com/fxzer/funny-canvas'
       desc: '有趣的 Canvas 案例'
+      site: 'https://fxzer.github.io/funny-canvas'
+    - name: 'dir-vis'
+      link: 'https://github.com/fxzer/dir-vis'
+      desc: '纯前端目录可视化'
+      site: 'https://fxzer.github.io/dir-vis'
+    - name: 'network-topology-graph'
+      link: 'https://github.com/fxzer/network-topology-graph'
+      site: 'https://fxzer.github.io/network-topology-graph'
+      desc: '网络拓扑图'
+    - name: 'wyy-music-vue2'
+      link: 'https://github.com/fxzer/wyy-music-vue2'
+      desc: '仿网易云音乐(Vue2)'
+      site: ''
   Nuxt:
     - name: 'github-trends'
-      link: 'https://github.com/fxzer/github-trands'
+      link: 'https://github.com/fxzer/github-trends'
       desc: 'Github 趋势一览'
+      site: 'https://fxzer.github.io/github-trends'
+    - name: 'digital-huarong-road'
+      link: 'https://github.com/fxzer/digital-huarong-road'
+      desc: '数字华容道游戏'
+      site: 'https://fxzer.github.io/digital-huarong-road'
+    - name: 'nuxt-hk'
+      link: 'https://github.com/fxzer/nuxt-hk'
+      desc: 'Nuxt 版 HackerNews 网站'
+      site: 'https://nuxt-hk-one.vercel.app'
+  TypeScript:
+    - name: 'fxzer/utils'
+      link: 'https://github.com/fxzer/utils'
+      desc: '常用工具函数集合'
+      site: ''
+  Electron:
+    - name: 'electron-dark-light-joint'
+      link: 'https://github.com/fxzer/electron-dark-light-joint'
+      desc: '亮暗图片拼接工具'
+      site: ''
   React:
     - name: 'React XXX'
       link: 'https://github.com/fxzer/xxx'
       desc: 'xxx'
+      site: ''
 ---
 
 <ListProjects :projects="frontmatter.projects" />
